@@ -1,0 +1,614 @@
+/* main */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+.main{
+    background-image: url(./img/background.jpg);
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: max(1970px ,100vw);
+    height: 110vh;
+    position: relative;
+    
+   }
+   .main .box{
+    height:110vh;
+    width: 100%;
+    opacity: .44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+   }
+   nav{
+    display: flex;
+    height: 62px;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+
+   }
+   .select{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+   }
+   .sign button{
+    margin-left: 13px;
+    height: 36px;
+    width: 82px;
+    z-index: 10;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px ;
+   }
+   .sign{
+    z-index: 10;
+  
+   }
+   @media only screen and (max-width:542px){
+    nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 12px;
+    }
+   }
+   .select select{
+    width: 106px;
+    height: 36px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(14, 14, 14);
+   border: 2px solid rgb(106, 88, 88);
+    z-index: 10;
+    border-radius: 4px;
+   }
+   #Net img{
+    width: 153px;
+    /* color: red; */
+    position: relative;
+    z-index: 10;
+    left: 7px;
+    }
+ #get {
+    position: relative;
+    z-index: 10;
+    margin: 22px;
+    padding: 8px;
+    width: 113px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+   }
+   .hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 103px;
+    z-index: 10;
+    font-size: 23px;
+   }
+  .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 152px;
+    z-index: 10;
+  }
+ 
+  @media only screen and (max-width:450px){
+    .input{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  input{
+    width: 231px;
+    height: 42px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 13px;
+    padding: 6px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+}
+#get{
+    font-weight: bold;
+    width: 203px;
+    height: 53px;
+    color: white;
+    font-size: 23px;
+    font-weight: 23px;
+    /* font-weight: bold; */
+  }
+  span{
+    margin-top: 12px;
+    text-align: center;
+  }
+/* main */
+/* seondpage */
+.secondpage{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+  height: 110vh;
+  width: 100%;
+  margin-top: 5px;
+background-color: black;
+}
+.enjoy h2{
+  color: white;
+  font-size: 48px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* text-align: center; */
+}
+#tab {
+  color: white;
+  font-size: 20px;
+  /* text-align: center; */
+}
+ .tv img{
+  position: relative;
+  z-index: 10;
+  top: 1px;
+  height: 350px;
+}
+.content{
+  text-align: center;
+  position:relative;
+  right: 13px;
+  width: 333px;
+}
+#tvvideo video {
+  position: relative;
+  left: 50px;
+  top: 268px;
+  width: 362px;
+  height: 191px;
+}
+
+.tvplsvideo {
+  position: relative;
+  bottom: 103px;
+
+
+}
+@media  only screen and (max-width:832px){
+  .secondpage{
+    display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  /* height: 80vh;
+  width: 80vw; */
+  }
+  .content{
+    text-align: center;
+    position:relative;
+    width: 100%;
+  }
+}
+/* seondpage */
+/* thirdpage */
+
+#strangerthing{
+  color: white;
+}
+#download{
+  color: white;
+}
+.stra{
+  display: flex;
+  border: 2px solid #312626;
+  border-radius: 15px;
+  width: 272px;
+  position: relative;
+  top: -85px;
+  left: 75px;
+  height: 104px;
+  background-color: black;
+}
+
+.stranger img{
+  width: 68px;
+  padding: 4px;
+}
+#download{
+  color: blue;
+}
+#downloadimg img{
+  position: relative;
+  left: 68px;
+  top: 27px;
+  width: 48px;
+
+}
+.dow{
+  width: 23px;
+  padding: 21px;
+}
+
+.girlreaction img{
+  width: 416px;
+  left: 8px;
+  position: relative;
+  top: 49px;
+ 
+}
+#shows{
+color: white;
+}
+#lowertext{
+  color: white;
+  top: -38px;
+  position: relative;
+  font-size: 19px;
+  font-weight: 632;
+}
+
+.thirdpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  background-color: black;
+}
+.sidetext{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 36px;
+  left: -32px;
+  padding:2px;
+  width: 415px;
+  margin-left: 107px;
+
+}
+#shows{
+  /* width: 297px; */
+  font-size: 30px;
+  position: relative;
+  top: -56px;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#shows h2{
+  font-weight: 900;
+}
+@media only screen and (max-width:831px) {
+  .thirdpage{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  width: 100%;
+  }
+.sidetext{
+  text-align: center;
+width: 80vw;
+position: relative;
+    left: -47px;
+}
+/* .girlreaction img{
+  width: 100%;
+
+}
+.dow{
+  width: 100%;
+} */
+}
+
+/* thirdpage */
+/* fourpage */
+.fourpage{
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 3px;
+}
+.fourtext{
+  color: white;
+  position: relative;
+  top: 14px;
+}
+#watch{
+  font-size: 25px;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+margin: 9px;
+position: relative;
+right: 8px;
+}
+#watch h2 {
+  font-weight: 900;
+
+}
+#stream{
+font-size: 21px;
+}
+.fourtext{
+  position: relative;
+  width: 375px;
+  /* border: 2px solid; */
+  height: 233px;
+  right: 246px;
+  right: 33px;
+}
+.rajmavideo video{
+  width: 331px;
+  position: relative;
+  left: 67px;
+  height: 142px;
+
+}
+.rajmaphoto img {
+  width: 428px;
+  position: relative;
+  top: -180px;
+  left: 23px;
+
+}
+.rajma{
+  /* display: flex; */
+  /* width: 472px; */
+  height: 353px;
+  /* border: 2px solid white; */
+  position: relative;
+  top: 36px;
+
+}
+@media only screen and (max-width:921px){
+  .fourpage{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+  }
+  .fourtext{
+    text-align: center;
+ position: relative;
+ left: 12px;
+ width: 80vw;
+  
+  }
+  
+}
+/* fourpage */
+/* fivepage */
+.fivepage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  width: 100%;
+  height: 110vh;
+  background-color: black;
+}
+.fivetext{
+  color: white;
+  width: 393px;
+  /* border: 2px solid; */
+  position: relative;
+  right: 200px;
+
+}
+.creat h2{
+  font-size: 24px;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+font-weight: 900;
+font-size: 39px;
+margin: 8px;
+
+}
+#children{
+  width: 472px;
+  height: 354px;
+  /* border: 2px solid white; */
+  position: relative;
+  left: 173px;
+}
+#children img{
+  width: 463px;
+}
+.childrenlowertext{
+  font-size: 23px;
+  margin: 8px;
+}
+@media   only screen and (max-width:1159px){
+  .fivepage{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%;
+  height: 80vh; */
+  }
+  #children img{
+    position: relative;
+    right:161px;
+    width: 100%;
+  }
+.fivetext{
+  text-align: center;
+  width: 80vw;
+  position: relative;
+  left: 23px;
+  
+}
+}
+/* fivepage */
+/* sixpage */
+.sixpage{
+  color: white;
+  /* margin: auto; */
+  /* height: 250vh; */
+  width: 100%;
+  margin-top:-33px;
+  background-color: black;
+  height: 220vh;
+}
+#frq h2 {
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+  text-align: center;
+  font-weight: 900;
+  font-size: 33px;
+  margin-top: 35px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid white; */
+height: 34px;
+margin: 10px;
+font-size: 1.5rem;
+padding: 20px;
+font-weight: 400;
+margin-left: 100px;
+  margin-right: 100px;
+  background-color: #312e2e;
+
+} 
+
+.member{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+.input2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#get2 {
+  position: relative;
+  margin: 22px;
+  padding: 8px;
+  width: 183px;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 58px;
+  color: white;
+  font-size:21px;
+ }
+ @media  only screen and (max-width:450px) {
+  .input2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .item{
+    /* height: 50px; */
+  }
+  
+ }
+/* sixpage */
+/* sevenpage */
+.sevenpage{
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: wheat;
+  position: relative;
+  /* right: 14px; */
+  background-color: black;
+  margin-top: 62px; 
+  padding-top: 73px;
+  }
+.other{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* height: 60vh; */
+  /* width: 100%; */
+
+  /* border: 2px solid white; */
+  flex-wrap: wrap;
+  width: 80%;
+height:44vh;
+row-gap: -23px;
+column-gap: 50px;
+/* gap: 12px; */
+flex: end;
+margin-top: 22px;
+margin-left: 110px;
+}
+.links{
+  width: 156px;
+  /* border: 3px solid white; */
+
+  font-size: 18px;
+  
+}
+.links a {
+  color: rgba(255,255,255,0.7);
+}
+#question{
+  font-size: 23px;
+  position: relative;
+  left: 110px;
+}
+.select1 select{
+  position: relative;
+  left: 107px;
+  width: 101px;
+  text-align: center;
+  height: 38px;
+  color: white;
+  background-color: red;
+    border: 2px solid red;
+    border-radius: 4px ;
+    font-size: 16px;
+}
+
+#question a{
+  color:rgba(255,255,255,0.7);
+}
+#question {
+  color:rgba(255,255,255,0.7);
+}
+@media  only screen and (max-width:389px){
+  #question{
+    text-align: center;
+  }
+  
+}
+/* sevenpage */
